@@ -1,0 +1,1 @@
+export const forsale = state => state.forsale.forsale
