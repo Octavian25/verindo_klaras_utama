@@ -11,27 +11,32 @@ const BodyForSales = () => {
   }, [dispatch]);
   return (
     <>
-      {forSales.map((data) => {
-        return (
-          <section
-            id="properties"
-            key={data?.id}
-            className="dtr-section dtr-bg-shapes-type-3 dtr-py-100"
-          >
-            <div className="dtr-box-layout">
-              <div className="dtr-section-heading-wrapper">
-                <h2>Our Featured Porperties For Sell</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt soluta nobis assumenda labore quod
-                  maxime.
-                </p>
-              </div>
-
-              <div className="row d-flex align-items-center dtr-mt-70">
+      <section
+        id="properties"
+        className="dtr-section dtr-bg-shapes-type-3 dtr-py-100"
+      >
+        <div className="dtr-box-layout">
+          <div className="dtr-section-heading-wrapper">
+            <h2>Rumah Terbaik Khusus Untuk Anda</h2>
+            <p>Kami sediakan rumah terbaik dikelasnya, hanya untuk anda...</p>
+          </div>
+          {forSales.map((data) => {
+            return (
+              <div
+                className="row d-flex align-items-center dtr-mt-70"
+                key={data?.id}
+              >
                 <div className="col-12 col-md-6">
                   <div className="dtr-label-wrapper">
-                    <span className="dtr-label dtr-label-green">For Sale</span>
+                    <span
+                      className={
+                        data?.status === "FOR SALE"
+                          ? "dtr-label dtr-label-green"
+                          : "dtr-label dtr-label-yellow"
+                      }
+                    >
+                      {data?.status}
+                    </span>
                     <img
                       src={data?.gambar}
                       alt="image1"
@@ -55,7 +60,11 @@ const BodyForSales = () => {
                       {data?.spesifikasi.map((spek) => {
                         return (
                           <div
-                            className="dtr-box-sm dtr-mr-5 bg-medium-blue"
+                            className={
+                              data?.status === "FOR SALE"
+                                ? "dtr-box-sm dtr-mr-5 bg-medium-blue"
+                                : "dtr-box-sm dtr-mr-5 bg-medium-yellow"
+                            }
                             key={spek?.id}
                           >
                             <i className={spek?.icon}></i>
@@ -74,27 +83,20 @@ const BodyForSales = () => {
                       className="dtr-btn dtr-video-popup dtr-btn-right-icon dtr-mr-5 btn-dark-blue"
                       data-autoplay="true"
                       data-vbtype="video"
-                      href="https://www.youtube.com/watch?v=kuceVNBTJio"
+                      href={data?.video}
                     >
                       Take a Tour
                       <span className="btn-span bg-blue color-white">
                         <i className="fa fa-play" aria-hidden="true"></i>
                       </span>
                     </a>
-
-                    <div className="dtr-share">
-                      <div className="dtr-btn dtr-btn-only-icon btn-blue">
-                        <i className="fa fa-share-alt" aria-hidden="true"></i>
-                      </div>
-                      <ul className="dtr-share-dropdown dtr-social dtr-share-list"></ul>
-                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </section>
-        );
-      })}
+            );
+          })}
+        </div>
+      </section>
     </>
   );
 };

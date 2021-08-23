@@ -7,7 +7,7 @@ const BodyAbout = () => {
         <div className="row dtr-mr-0">
           <div className="col-12 col-md-6 dtr-py-100 dtr-pr-100">
             <div className="dtr-section-heading-wrapper dtr-mb-20">
-              <h2>We Connect People With Their Dreams</h2>
+              <h2>Buat Impianmu Menjadi Nyata</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt soluta nobis assumenda labore quod
@@ -48,23 +48,23 @@ const BodyAbout = () => {
                     alt="image4"
                   />
                 </span>
-                <span className="bg-blue color-white">1M+</span>
+                <span className="bg-blue color-white">45+</span>
               </div>
-              <p className="text-size-sm dtr-ml-10">Reviews 4.7 out of 5</p>
+              <p className="text-size-sm dtr-ml-10">Reviews 4.8 out of 5</p>
             </div>
 
             <div className="row dtr-mt-30">
               <div className="col-12 col-md-6">
                 <p className="tagline-style1 color-green text-shadow-green">
-                  $1,40,221+
+                  &#9733; 5
                 </p>
-                <p>Average buyer savings</p>
+                <p>Kepuasan</p>
               </div>
               <div className="col-12 col-md-6">
                 <p className="tagline-style1 color-green text-shadow-green">
-                  #1
+                  &#9733; 5
                 </p>
-                <p>Resource for housing info</p>
+                <p>Pelayanan</p>
               </div>
             </div>
           </div>

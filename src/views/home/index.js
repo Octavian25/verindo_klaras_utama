@@ -21,11 +21,11 @@ const Home = () => {
           className="dtr-section dtr-box-layout dtr-py-100"
         >
           <div className="dtr-section-heading-wrapper">
-            <h2>We handle everything</h2>
+            <h2>Kami Akan Bantu Segalanya</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipiscing elit sed do
-              eiusmod tempor incididunt soluta nobis assumenda labore quod
-              maxime.
+              Sebagai Perusahaan Developer yang sangat mengutamakan kualitas
+              layanan, kami akan membantu anda untuk mendapatkan rumah impian
+              yang anda inginkan
             </p>
           </div>
 
@@ -37,12 +37,8 @@ const Home = () => {
                   alt="Logo-1"
                 />
               </div>
-              <h4>Home Appraisal</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliquais
-                ipsum ultrices.
-              </p>
+              <h4>Pengajuan Rumah</h4>
+              <p>Kami akan bantu anda dalam proses pengajuan rumah</p>
             </div>
 
             <div className="col-12 col-md-4 dtr-feature dtr-feature-top">
@@ -52,12 +48,8 @@ const Home = () => {
                   alt="Logo-2"
                 />
               </div>
-              <h4>Price Negotiation</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliquais
-                ipsum ultrices.
-              </p>
+              <h4>Komunikasi</h4>
+              <p>Kami siap melayani anda dengan sigap dan tanggap</p>
             </div>
 
             <div className="col-12 col-md-4 dtr-feature dtr-feature-top">
@@ -67,11 +59,10 @@ const Home = () => {
                   alt="Logo-3"
                 />
               </div>
-              <h4>Paperwork Handling</h4>
+              <h4>Persyaratan</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliquais
-                ipsum ultrices.
+                Kami akan bantu untuk mengorganisis dokumen persyaratan anda ,
+                cukup siapkan dokumen yang diminta
               </p>
             </div>
           </div>

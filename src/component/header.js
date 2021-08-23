@@ -1,3 +1,4 @@
+import logo from "../images/logo.png";
 const Header = () => {
   return (
     <>
@@ -5,24 +6,18 @@ const Header = () => {
         <div className="d-flex align-items-center justify-content-between">
           <div className="dtr-header-left">
             <a className="logo-default dtr-scroll-link" href="#home">
-              <img
-                src="http://tanshcreative.com/reales-lp-preview/assets/images/logo-dark.png"
-                alt="logo"
-              />
+              <img src={logo} alt="logo" />
             </a>
             <a className="logo-alt dtr-scroll-link" href="#home">
-              <img
-                src="http://tanshcreative.com/reales-lp-preview/assets/images/logo-dark.png"
-                alt="logo"
-              />
+              <img src={logo} alt="logo" />
             </a>
           </div>
           <div className="dtr-header-right ml-auto">
             <div className="dtr-header-contact dtr-ml-50 dtr-mt-5">
               <p>
                 <a href="/#">
-                  <i className="icon-phone-call dtr-mr-5 color-dark-blue"></i>{" "}
-                  1800 234 567
+                  <i class="fa fa-phone mr-2" aria-hidden="true"></i>
+                  (022) 522-222
                 </a>
               </p>
             </div>
@@ -30,27 +25,27 @@ const Header = () => {
               <ul className="sf-menu dtr-scrollspy dtr-nav dark-nav-on-load dark-nav-on-scroll">
                 <li>
                   <a className="nav-link" href="#home">
-                    Home.
+                    Home
                   </a>
                 </li>
                 <li>
                   <a className="nav-link" href="#about">
-                    About.
+                    About
                   </a>
                 </li>
                 <li>
                   <a className="nav-link" href="#properties">
-                    Properties.
+                    Properties
                   </a>
                 </li>
                 <li>
                   <a className="nav-link" href="#services">
-                    Services.
+                    Services
                   </a>
                 </li>
                 <li>
                   <a className="nav-link" href="#contact">
-                    Contact.
+                    Contact
                   </a>
                 </li>
               </ul>

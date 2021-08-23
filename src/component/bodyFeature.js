@@ -11,8 +11,8 @@ const BodyFeature = () => {
               </span>
               <div className="dtr-cta-content">
                 <div className="dtr-cta-content-left">
-                  <h4>Want to sell a home in the US?</h4>
-                  <p>Get in touch with our broker!</p>
+                  <h4>Ingin Membeli Rumah di Klaras ?</h4>
+                  <p>Hubungi Marketing Klaras</p>
                 </div>
                 <div className="dtr-cta-content-right">
                   <a href="/#" className="dtr-btn btn-blue">
@@ -28,8 +28,8 @@ const BodyFeature = () => {
               </span>
               <div className="dtr-cta-content">
                 <div className="dtr-cta-content-left">
-                  <h4>Want to buy a home in the UK?</h4>
-                  <p>Call the broker for a quote!</p>
+                  <h4>Ingin Membeli Rumah di Klaras 2 ?</h4>
+                  <p>Hubungi Marketing Klaras 2</p>
                 </div>
                 <div className="dtr-cta-content-right">
                   <a href="/#" className="dtr-btn btn-blue">

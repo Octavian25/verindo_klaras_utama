@@ -8,8 +8,8 @@ const BodyService = () => {
         <div className="row">
           <div className="col-12 col-md-6">
             <div className="dtr-section-heading-wrapper">
-              <h2>Our Services</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipiscing</p>
+              <h2>Layanan Kami</h2>
+              <p>Pelayanan yang cepat dan terintegrasi</p>
             </div>
           </div>
 
@@ -17,19 +17,17 @@ const BodyService = () => {
             <div className="dtr-feature-img bg-medium-blue color-dark-blue">
               <i className="fa fa-building-o" aria-hidden="true"></i>
             </div>
-            <h5>Leasing Advisory</h5>
+            <h5>Penjualan Property</h5>
             <p>
-              There are many variations of passages of lorem ipsum available.
+              Banyak Property yang berhasil kami jual dalam waktu yang cepat
             </p>
           </div>
           <div className="col-12 col-md-3 dtr-feature dtr-feature-top dtr-feature-square">
             <div className="dtr-feature-img bg-medium-red color-dark-brown">
               <i className="fa fa-tags" aria-hidden="true"></i>
             </div>
-            <h5>Strategy & Consulting</h5>
-            <p>
-              There are many variations of passages of lorem ipsum available.
-            </p>
+            <h5>Strategi & Konsultasi</h5>
+            <p>Diskusikan Stategi dan Konsultasikan rencanmu dengan kami</p>
           </div>
         </div>
 
@@ -38,9 +36,9 @@ const BodyService = () => {
             <div className="dtr-feature-img bg-medium-green color-dark-green">
               <i className="fa fa-users" aria-hidden="true"></i>
             </div>
-            <h5>Space Enablement</h5>
+            <h5>Pemanfaatan Lahan</h5>
             <p>
-              There are many variations of passages of lorem ipsum available.
+              Bekerja Sama untuk manfaatkan lahan menjadi ladang uang untuk anda
             </p>
           </div>
 
@@ -58,7 +56,7 @@ const BodyService = () => {
             <div className="dtr-feature-img bg-light-red color-dark-brown">
               <i className="fa fa-cogs" aria-hidden="true"></i>
             </div>
-            <h5>Facilities Management</h5>
+            <h5>Manajemen Fasilitas</h5>
             <p>
               There are many variations of passages of lorem ipsum available.
             </p>
