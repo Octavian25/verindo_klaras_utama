@@ -110,10 +110,11 @@ const BodyEmail = () => {
 
             <div className="spacer-100"></div>
             <p>
-              Alamat Kantor Verindo <br></br>0815872823
+              Alamat Kantor Verindo <br></br>
+              Jl. Salendro Tim. 2 No.5A, Gumuruh,<br></br> Kec. Batununggal, Kota Bandung,<br></br> Jawa Barat
+              <br></br>082166897755
             </p>
-            <p className="tagline-style1 color-green text-shadow-green">
-              verindo.sales@gmail.com
+            <p className="tagline-style1 color-green text-shadow-green">verindo.sales@gmail.com
             </p>
           </div>
         </div>
