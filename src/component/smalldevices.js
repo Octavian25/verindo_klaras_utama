@@ -12,11 +12,6 @@ const SmallDevices = () => {
               alt="logo"
             />
           </a>
-          <button id="dtr-menu-button" className="dtr-hamburger" type="button">
-            <span className="dtr-hamburger-lines-wrapper">
-              <span className="dtr-hamburger-lines"></span>
-            </span>
-          </button>
         </div>
       </div>
     </>
