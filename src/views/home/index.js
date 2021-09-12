@@ -13,7 +13,7 @@ const Home = () => {
       <BodyHeader
         title="Klaras Cimanggung Hills"
         desc="Rumah Subsidi dengan pemandangan indah dan suasana yang menyenangkan"
-        price="Rp. 150.000.000"
+        price="Rp. 150.500.000"
       />
       <div id="dtr-main-content">
         <section

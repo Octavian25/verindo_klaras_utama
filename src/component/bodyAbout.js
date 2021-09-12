@@ -5,7 +5,7 @@ const BodyAbout = () => {
     <>
       <section id="about" className="dtr-section dtr-box-layout">
         <div className="row dtr-mr-0">
-          <div className="col-12 col-md-6 dtr-py-100 dtr-pr-100">
+          <div className="col-12 col-md-6 dtr-py-100">
             <div className="dtr-section-heading-wrapper dtr-mb-20">
               <h2>Buat Impianmu Menjadi Nyata</h2>
               <p>

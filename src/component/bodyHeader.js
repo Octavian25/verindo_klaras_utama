@@ -17,7 +17,7 @@ const BodyHeader = (props) => {
             ></div>
 
             <div className="col-12 col-md-6 dtr-py-100 dtr-sm-p-50 dtr-px-100">
-              <h1>{props.title}</h1>
+              <h2>{props.title}</h2>
               <p>{props.desc}</p>
               <a
                 href="/#"
@@ -42,7 +42,7 @@ const BodyHeader = (props) => {
               <p className="tagline-style2 dtr-mb-0 color-dark">
                 Price starts at
               </p>
-              <p className="text-size-xxl color-green text-shadow-green">
+              <p className="text-size-xl color-green text-shadow-green">
                 {props.price}
               </p>
             </div>
