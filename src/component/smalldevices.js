@@ -1,3 +1,6 @@
+import logo from "../images/logo.png";
+
+
 const SmallDevices = () => {
   return (
     <>
@@ -5,7 +8,7 @@ const SmallDevices = () => {
         <div className="container">
           <a href="index.html">
             <img
-              src="http://tanshcreative.com/reales-lp-preview/assets/images/logo-dark.png"
+              src={logo}
               alt="logo"
             />
           </a>
