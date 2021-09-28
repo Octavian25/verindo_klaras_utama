@@ -39,7 +39,7 @@ const ForSaleData = [
     keterangan:
       "Rumah bergaya minimalis dengan suasana pegunungan yang sejuk dan asri, ditambah dengan pemandangan kota bandung yang indah dapat terlihat dari halaman rumah anda, ditambah dengan lingkungan yang nyaman dan aman dipantau dengan CCTV 24 jam dan security",
     harga: "150.500.000",
-    video: "https://www.youtube.com/watch?v=qvym_f8uA0I",
+    video: "https://youtu.be/OUb5Ti6qUwo",
     link_twitter: "",
     link_facebook: "",
     link_instagram: "",
@@ -83,7 +83,7 @@ const ForSaleData = [
     keterangan:
       "Rumah bergaya minimalis dengan suasana pegunungan yang sejuk dan asri, ditambah dengan pemandangan kota bandung yang indah dapat terlihat dari halaman rumah anda, ditambah dengan lingkungan yang nyaman dan aman dipantau dengan CCTV 24 jam dan security",
     harga: "-",
-    video: "https://www.youtube.com/watch?v=qvym_f8uA0I",
+    video: "https://youtu.be/OUb5Ti6qUwo",
     link_twitter: "",
     link_facebook: "",
     link_instagram: "",
