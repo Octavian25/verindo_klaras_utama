@@ -1,24 +1,24 @@
-import React, { useState } from 'react';
-import emailjs from 'emailjs-com';
+import React, { useState } from "react";
+import emailjs from "emailjs-com";
 
 const BodyEmail = () => {
   const [nama, setNama] = useState("");
   const [alamat, setAlamat] = useState("");
-  const [project, setProject] = useState("")
-  const [mulaiDari, setMulaiDari] = useState("-")
-  const [sampaiDengan, setSampaiDengan] = useState("-")
-  const [whatsapp, setwhatsapp] = useState("")
+  const [project, setProject] = useState("");
+  const [mulaiDari, setMulaiDari] = useState("-");
+  const [sampaiDengan, setSampaiDengan] = useState("-");
+  const [whatsapp, setwhatsapp] = useState("");
 
-  const sendEmail = () =>{
-    emailjs.send("service_ls6u68s","template_r4mdpql",{
+  const sendEmail = () => {
+    emailjs.send("service_ls6u68s", "template_r4mdpql", {
       nama: nama,
       alamat: alamat,
       project: project,
       mulai_dari: mulaiDari,
       sampai_dengan: sampaiDengan,
       whatsapp: whatsapp.substr(-1),
-      });
-  }
+    });
+  };
   return (
     <>
       <section
@@ -42,7 +42,13 @@ const BodyEmail = () => {
                     <div className="dtr-form-column">
                       <p className="dtr-form-field">
                         <span className="dtr-form-subtext">Nama</span>
-                        <input name="name" type="text" placeholder="Octavian" onChange={(e) => setNama(e.target.value)} onBlur={(e) => setNama(e.target.value)} />
+                        <input
+                          name="name"
+                          type="text"
+                          placeholder="Octavian"
+                          onChange={(e) => setNama(e.target.value)}
+                          onBlur={(e) => setNama(e.target.value)}
+                        />
                       </p>
                     </div>
                     <div className="dtr-form-column">
@@ -53,7 +59,8 @@ const BodyEmail = () => {
                           className="required"
                           type="text"
                           placeholder="bandung"
-                          onChange={(e) => setAlamat(e.target.value)} onBlur={(e) => setAlamat(e.target.value)}
+                          onChange={(e) => setAlamat(e.target.value)}
+                          onBlur={(e) => setAlamat(e.target.value)}
                         />
                       </p>
                     </div>
@@ -67,7 +74,8 @@ const BodyEmail = () => {
                           type="number"
                           placeholder="0859244321"
                           maxlength="13"
-                          onChange={(e) => setwhatsapp(e.target.value)} onBlur={(e) => setwhatsapp(e.target.value)}
+                          onChange={(e) => setwhatsapp(e.target.value)}
+                          onBlur={(e) => setwhatsapp(e.target.value)}
                         />
                       </p>
                     </div>
@@ -84,8 +92,11 @@ const BodyEmail = () => {
                     </div>
                   </div>
                   <p className="dtr-form-field">
-                    <select name="subject" className="required"
-                    onChange={(e) => setProject(e.target.value)} onBlur={(e) => setProject(e.target.value)}
+                    <select
+                      name="subject"
+                      className="required"
+                      onChange={(e) => setProject(e.target.value)}
+                      onBlur={(e) => setProject(e.target.value)}
                     >
                       <option value="Klaras Cimanggung Hills">
                         Klaras Cimanggung Hills
@@ -101,7 +112,8 @@ const BodyEmail = () => {
                           name="name"
                           type="text"
                           placeholder="9 pagi / 09:00"
-                          onChange={(e) => setMulaiDari(e.target.value)} onBlur={(e) => setMulaiDari(e.target.value)}
+                          onChange={(e) => setMulaiDari(e.target.value)}
+                          onBlur={(e) => setMulaiDari(e.target.value)}
                         />
                       </p>
                     </div>
@@ -113,7 +125,8 @@ const BodyEmail = () => {
                           className="required"
                           type="text"
                           placeholder="5 sore / 17:00"
-                          onChange={(e) => setSampaiDengan(e.target.value)} onBlur={(e) => setSampaiDengan(e.target.value)}
+                          onChange={(e) => setSampaiDengan(e.target.value)}
+                          onBlur={(e) => setSampaiDengan(e.target.value)}
                         />
                       </p>
                     </div>
@@ -138,10 +151,12 @@ const BodyEmail = () => {
             <div className="spacer-100 "></div>
             <p>
               Alamat Kantor Verindo <br></br>
-              Jl. Salendro Tim. 2 No.5A, Gumuruh,<br></br> Kec. Batununggal, Kota Bandung,<br></br> Jawa Barat
+              Ruko Puri Dago, Jl. Terusan Jakarta No.308, Sukamiskin, <br></br>{" "}
+              Kec. Antapani, Kota Bandung,<br></br> Jawa Barat
               <br></br>082166897755
             </p>
-            <p className="text-size-l text-center color-green text-shadow-green">verindo.sales@gmail.com
+            <p className="text-size-l text-center color-green text-shadow-green">
+              verindo.sales@gmail.com
             </p>
           </div>
         </div>
